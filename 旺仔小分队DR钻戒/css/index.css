@@ -1,0 +1,484 @@
+      * {
+      	padding: 0;
+      	margin: 0;
+      	list-style: none;
+      }
+      head{
+      	position: absolute;
+      	left: 0;
+      	top: 0;
+      	bottom: 0px;
+      	right: 0;
+      }
+      body {
+      	/*position: absolute;*/
+      	/*left: 0;
+      	top: 0;
+      	bottom: 0px;
+      	right: 0;*/
+      	position: relative;
+      	
+      }
+      .tou-S {
+      	width: 1360px;
+      	height: 620px;
+      	/*border: 1px solid black;*/
+      	margin: 1px auto;
+      	position: relative;
+      	/*background: url(../img/15597244445cf7819ca6104.jpg)no-repeat;*/
+      }
+      
+      .tou-S img {
+      	position: absolute;
+      	top: 0;
+      	left: 0;
+      }
+      /*左右两边箭头*/
+      
+      .tou-S .zuo-1 {
+      	position: absolute;
+      	top: 0;
+      	left: 0;
+      	width: 70px;
+      	height: 50px;
+      	/*border: 1px solid black;*/
+      	float: left;
+      	margin: 265px 0 0 10px;
+      	background: url(../img/ico-bannerBtn.png)no-repeat 45px 5px;
+      }
+      
+      .tou-S .arrow {
+      	z-index: 999;
+      }
+      
+      .tou-S .you-1 {
+      	position: absolute;
+      	top: 0;
+      	right: 0;
+      	width: 70px;
+      	height: 50px;
+      	/*border: 1px solid black;*/
+      	float: right;
+      	margin: 265px 0 0 10px;
+      	background: url(../img/ico-bannerBtn.png)no-repeat -25px 5px;
+      }
+      /*左右两边箭头*/
+      
+      .tou-sen {
+      	width: 1360px;
+      	height: 462px;
+      	/*border: 1px solid black;*/
+      	margin: 0 auto;
+      	background: url(../img/15504818355c6a79abcae4d.jpg)no-repeat;
+      }
+      
+      .tou-sen .location {
+      	width: 161px;
+      	height: 128px;
+      	/*border: 1px solid black;*/
+      	margin: 152px 226px;
+      	background: url(../img/ico-play.png) no-repeat 35px 15px;
+      	float: left;
+      	cursor:pointer;
+      }
+      
+      .tou-sen .location-h {
+      	width: 732px;
+      	height: 462px;
+      	/*border: 1px solid red;*/
+      	float: right;
+      	background: #f5f1ee;
+      }
+      
+      .location-h .dr {
+      	margin: 25px 320px;
+      }
+      
+      .location-h .pon {
+      	text-align: center;
+      	line-height: 32px;
+      	font-size: 18px;
+      	color: #493428;
+      }
+      
+      .location-h .id {
+      	width: 280px;
+      	height: 45px;
+      	/*border: 1px solid black;*/
+      	margin: 28px 233px;
+      	background: #8b766c;
+      }
+      
+      .id .truelove {
+      	width: 228px;
+      	height: 40px;
+      	background: #8b766c;
+      	float: left;
+      	outline: none;
+      	border: none;
+      	margin-top: 4px;
+      	text-indent: 10px;
+      	text-align: center;
+      }
+      /************************/
+      
+      .active {
+      	color: white;
+      }
+      
+      .id .magnifier {
+      	float: left;
+      	width: 46px;
+      	height: 43px;
+      	/*border: 1px solid black;*/
+      	background: url(../img/查找图片.PNG)no-repeat 5px 9px;
+      }
+      
+      .ring {
+      	width: 1361px;
+      	height: 972px;
+      	/*border: 1px solid red;*/
+      	margin: 0 auto;
+      	position: relative;
+      }
+      
+      .div:hover img {
+      	transform: scale(1.5);
+      	transition: 0.5s;
+      }
+      
+      .ring .ring-z {
+      	float: left;
+      	position: relative;
+      	width: 694px;
+      	height: 622px;
+      	overflow: hidden;
+      }
+      
+      .ring-z img {
+      	cursor: pointer;
+      	transition: all 0.6s;
+      }
+      
+      .ring-z img:hover {
+      	transform: scale(1.2);
+      }
+      /*求婚戒指放大*/
+      
+      .ring .ring1 {
+      	width: 100px;
+      	height: 42px;
+      	/*border: 1px solid red;*/
+      	position: absolute;
+      	top: 85%;
+      	left: 4%;
+      	text-align: center;
+      	line-height: 42px;
+      	font-size: 18px;
+      	color: #333;
+      }
+      
+      .ring .ring-x {
+      	float: left;
+      	margin-left: 16px;
+      	position: relative;
+      	width: 650px;
+      	height: 387px;
+      	overflow: hidden;
+      }
+      
+      .ring-x img {
+      	cursor: pointer;
+      	transition: all 0.6s;
+      }
+      
+      .ring-x img:hover {
+      	transform: scale(1.2);
+      }
+      /*男戒放大*/
+      
+      .ring .ring2 {
+      	width: 100px;
+      	height: 42px;
+      	/*border: 1px solid red;*/
+      	position: absolute;
+      	top: 82%;
+      	right: 2%;
+      	text-align: center;
+      	line-height: 42px;
+      	font-size: 18px;
+      	color: #333;
+      }
+      
+      .ring .ring-n {
+      	margin-top: 15px;
+      	float: left;
+      	position: relative;
+      	width: 694px;
+      	height: 330px;
+      	overflow: hidden;
+      }
+      
+      .ring-n img {
+      	cursor: pointer;
+      	transition: all 0.6s;
+      }
+      
+      .ring-n img:hover {
+      	transform: scale(1.2);
+      }
+      /*真爱礼物放大*/
+      
+      .ring-n .ring3 {
+      	width: 100px;
+      	height: 42px;
+      	/*border: 1px solid red;*/
+      	position: absolute;
+      	top: 82%;
+      	right: 2%;
+      	text-align: center;
+      	line-height: 42px;
+      	font-size: 18px;
+      	color: #333;
+      }
+      
+      .ring .ring-k {
+      	float: right;
+      	position: relative;
+      	top: -223px;
+      	width: 650px;
+      	height: 567px;
+      	overflow: hidden;
+      }
+      
+      .ring-k img {
+      	cursor: pointer;
+      	transition: all 0.6s;
+      }
+      
+      .ring-k img:hover {
+      	transform: scale(1.2);
+      }
+      /*结婚对戒放大*/
+      
+      .ring-k .ring4 {
+      	width: 100px;
+      	height: 42px;
+      	/*border: 1px solid red;*/
+      	position: absolute;
+      	top: 82%;
+      	right: 2%;
+      	text-align: center;
+      	line-height: 42px;
+      	font-size: 18px;
+      	color: #333;
+      }
+      
+      .seek {
+      	width: 1360px;
+      	height: 500px;
+      	/*border: 1px solid red;*/
+      	margin: 22px auto;
+      	/*position: relative;
+    	top: -226px;*/
+      }
+      
+      .seek .ao {
+      	position: relative;
+      	top: -194px;
+      	float: left;
+      }
+      
+      .seek .seek-x {
+      	width: 550px;
+      	height: 500px;
+      	/*border: 1px solid black ;*/
+      	margin-left: 809px;
+      	background: #ded8d2;
+      }
+      
+      .seek-x .inner {
+      	width: 200px;
+      	height: 186px;
+      	/*border: 1px solid black ;*/
+      	margin: 23px 154px;
+      	background: url(../img/logoIcon_2019.png)no-repeat 68px 76px;
+      }
+      
+      .seek-x .city {
+      	width: 360px;
+      	height: 41px;
+      	/*border: 1px solid black ;*/
+      	margin: 35px 84px;
+      	background: #8b766c;
+      }
+      
+      .city a {
+      	text-decoration: none;
+      	color: #ded8d2;
+      	font-size: 15px;
+      	line-height: 41px;
+      	margin-left: 53px;
+      	float: left;
+      }
+      
+      .city .seek1 {
+      	width: 30px;
+      	height: 30px;
+      	/*border: 1px solid black ;*/
+      	float: left;
+      	margin: 4px 0 0 31px;
+      	background: url(../img/寻找.jpg)no-repeat 2px 6px;
+      }
+      
+      .city .peng {
+      	width: 132px;
+      	height: 37px;
+      	float: left;
+      	background: #8b766c;
+      	outline: none;
+      	border: none;
+      	color: #ded8d2;
+      	margin-top: 3px;
+      }
+      
+      .city .seek2 {
+      	width: 37px;
+      	height: 30px;
+      	/*border: 1px solid black ;*/
+      	float: left;
+      	margin: 4px 0 0 21px;
+      	background: url(../img/查找图片.PNG)no-repeat 4px 3px;
+      }
+      
+      .seek .an-s {
+      	width: 360px;
+      	height: 43px;
+      	/*border: 1px solid black ;*/
+      	margin-left: 84px;
+      }
+      
+      .an-s input {
+      	width: 360px;
+      	height: 43px;
+      	outline: none;
+      	border: none;
+      	background: #eee8e2;
+      	font-size: 14px;
+      	color: #8b766c;
+      }
+      
+      .an-s input:hover {
+      	background: #8b766c;
+      	color: white;
+      }
+      
+      .tail {
+      	width: 1360px;
+      	height: 396px;
+      	/*border: 1px solid black ;*/
+      	margin: 0 auto;
+      }
+      
+      .tail .tail1 {
+      	float: left;
+      	position: relative;
+      	right: 809px;
+      }
+      
+      .tail1 .divs {
+      	width: 89px;
+      	height: 40px;
+      	/*border: 1px solid red ;*/
+      	position: absolute;
+      	bottom: 50%;
+      	right: 42%;
+      	color: white;
+      }
+      
+      .tail .tail2 {
+      	float: left;
+      	position: relative;
+      	left: 413px;
+      	bottom: 396px;
+      }
+      
+      .tail2 .divz {
+      	width: 89px;
+      	height: 40px;
+      	/*border: 1px solid red ;*/
+      	position: absolute;
+      	bottom: 50%;
+      	right: 42%;
+      	color: white;
+      }
+      
+      .tail .tail3 {
+      	float: left;
+      	position: relative;
+      	left: 434px;
+      	bottom: 396px;
+      }
+      
+      .tail3 .divq {
+      	width: 89px;
+      	height: 40px;
+      	/*border: 1px solid red ;*/
+      	position: absolute;
+      	bottom: 50%;
+      	right: 42%;
+      	color: white;
+      }
+      
+      .dr_footer {
+      	position: relative;
+      	top: -320px;
+      }
+      
+      .id input::-webkit-input-placeholder {
+      	color: white;
+      }
+      
+      .city input::-webkit-input-placeholder {
+      	color: white;
+      }
+      
+      .xing1 {
+      	position: absolute;
+      	left: 0;
+      	top: 0;
+      	bottom: 0;
+      	right: 0;
+      	background: rgba(0, 0, 0, 0.8);
+      	overflow: hidden;
+      	z-index: 999;
+      	display: none;
+      }
+      
+      .xing1 .xing2 {
+      	width: 880px;
+      	height: 500px;
+      	position: fixed;
+      	left: 0;
+      	top: 0;
+      	bottom: 0;
+      	right: 0;
+      	margin: auto;
+      }
+      
+      .xing1 .xing2 video {
+      	height: 100%;
+      	width: 100%;
+      	cursor: pointer;
+      }
+      
+      #xx {
+      	width: 30px;
+      	height: 30px;
+      	border: 1px solid #fff;
+      	position: absolute;
+      	right: 1px;
+      	top: -29px;
+      	background: white;
+      	cursor:pointer;
+      }

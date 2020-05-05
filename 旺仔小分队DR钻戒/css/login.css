@@ -1,0 +1,434 @@
+ * {
+ 	padding: 0;
+ 	margin: 0;
+ 	list-style: none;
+ }
+ 
+ .box-log {
+ 	width: 1360px;
+ 	height: 80px;
+ 	/*border: 1px solid black;*/
+ 	margin: 0 auto;
+ 	display: flex;
+ 	justify-content: space-between;
+ }
+ 
+ .box-log .float {
+ 	float: right;
+ 	width: 290px;
+ 	height: 25px;
+ 	/*border: 1px solid red;*/
+ 	/*line-height: 80px;*/
+ 	margin-top: 26px;
+ 	font-size: 13px;
+ }
+ 
+ .float li {
+ 	float: left;
+ }
+ 
+ .float .lia {
+ 	background: #8b766c;
+ 	width: 71px;
+ 	height: 17px;
+ 	/*border: 1px solid red;*/
+ 	text-align: center;
+ 	line-height: 17px;
+ }
+ 
+ .float .lia a {
+ 	color: white;
+ 	text-decoration: none;
+ }
+ 
+ .float .e {
+ 	width: 20px;
+ 	height: 18px;
+ 	/*border: 1px solid red;*/
+ 	background: url(../img/电话.PNG)no-repeat 0px -3px;
+ 	margin-left: 9px;
+ }
+ 
+ .float .lic {
+ 	margin-left: 4px;
+ 	color: gray;
+ }
+ 
+ .float .lid {
+ 	margin-left: 25px;
+ 	color: gray;
+ }
+ 
+ .header-QQ {
+ 	width: 1360px;
+ 	height: 565px;
+ 	/*border: 1px solid black;*/
+ 	background: url(../img/login_bg.jpg)no-repeat;
+ 	margin: 0 auto;
+ 	position: relative;
+ 	margin-bottom: 102px;
+ }
+ 
+ .header-QQ .signin {
+ 	width: 312px;
+ 	height: 382px;
+ 	/*  border: 1px solid black;*/
+ 	float: right;
+ 	margin: 54px 106px 0 0px;
+ 	box-shadow: 0px 0px 8px #ccc;
+ 	background: white;
+ }
+ 
+ .signin .signin-a {
+ 	width: 254px;
+ 	height: 40px;
+ 	/*border: 1px solid black;*/
+ 	margin: 14px 0 0 28px;
+ 	color: #9b745c;
+ 	line-height: 40px;
+ 	text-align: center;
+ 	font-size: 20px;
+ }
+ 
+ .signin .signin-c {
+ 	width: 254px;
+ 	height: 40px;
+ 	border: 1px solid #e6e6e6;
+ 	margin: 1px 0 0 28px;
+ 	background: url(../img/登录图标.PNG)no-repeat 6px 5px;
+ 	line-height: 38px;
+ 	border-radius: 4px;
+ }
+ 
+ .signin-c .inpit-x {
+ 	margin-left: 33px;
+ 	height: 38px;
+ 	width: 216px;
+ 	border: none;
+ 	outline: none;
+ 	text-indent: 5px;
+ 	font-size: 12px;
+ }
+ 
+ #warning {
+ 	width: 254px;
+ 	height: 22px;
+ 	border: 1px solid #ff7373;
+ 	margin: 10px 0 0 28px;
+ 	background: url(../img/警告提示20191207123253.png)no-repeat 3px 1px;
+ 	font-size: 13px;
+ 	text-indent: 24px;
+ 	background-color: #fff2f2;
+ 	line-height: 22px;
+ 	display: none;
+ }
+ 
+ .signin .signin-d {
+ 	width: 254px;
+ 	height: 40px;
+ 	/*border: 1px solid #e6e6e6;*/
+ 	margin: 10px 0 0 28px;
+ }
+ 
+ .signin-d .verification {
+ 	width: 141px;
+ 	height: 40px;
+ 	border: 1px solid #e6e6e6;
+ 	float: left;
+ 	background: url(../img/获取手机验证码图标.PNG)no-repeat 4px 5px;
+ 	line-height: 36px;
+ 	border-radius: 4px;
+ }
+ 
+ .verification .inpit-p {
+ 	width: 101px;
+ 	height: 35px;
+ 	margin-left: 37px;
+ 	border: none;
+ 	outline: none;
+ }
+ 
+ .signin-d .inpit-fu {
+ 	float: right;
+ 	height: 40px;
+ 	color: #9b745c;
+ 	/*border: 1px solid gray;*/
+ 	background: white;
+ 	outline: none;
+ 	border: 1px solid gainsboro;
+ 	border-radius: 4px;
+ 	font-size: 12px;
+ 	width: 100px;
+ 	background-image: linear-gradient(white, #f4f4f4);
+ 	cursor: pointer;
+ }
+ 
+ .signin-d .inpit-fu:hover {
+ 	background-image: linear-gradient(#f4f4f4, white) !important;
+ }
+ 
+ .signin .signin-e {
+ 	width: 254px;
+ 	height: 20px;
+ 	/*border: 1px solid #e6e6e6;*/
+ 	margin: 17px 0 0 28px;
+ 	text-align: center;
+ 	font-size: 12px;
+ 	line-height: 20px;
+ }
+ 
+ .signin-e span {
+ 	margin: 0 15px;
+ }
+ 
+ .signin-e a {
+ 	color: #9b745c;
+ 	text-decoration: underline;
+ }
+ 
+ .signin-e span {
+ 	color: #9b745c;
+ }
+ 
+ .signin-f {
+ 	width: 254px;
+ 	height: 20px;
+ 	/*border: 1px solid #e6e6e6;*/
+ 	margin: 27px 0 0 33px;
+ 	font-size: 12px;
+ 	color: #9b745c;
+ }
+ 
+ .signin-f a {
+ 	text-decoration: none;
+ 	color: gray;
+ }
+ 
+ .signin-f .inpit-n {
+ 	position: relative;
+ 	top: 3px;
+ 	right: 4px;
+ }
+ 
+ .signin-g {
+ 	width: 254px;
+ 	height: 40px;
+ 	border: 1px solid #9b745c;
+ 	margin: 10px 0 0 29px;
+ }
+ 
+ .signin-g .inpit-j {
+ 	width: 254px;
+ 	height: 40px;
+ 	border: none;
+ 	outline: none;
+ 	background: white;
+ 	font-size: 14px;
+ 	cursor: pointer;
+ 	color: #8b766c;
+ }
+ 
+ .signin-g .inpit-j:hover {
+ 	background: #9b745c;
+ 	color: white;
+ }
+ 
+ .signin-i {
+ 	width: 310px;
+ 	height: 20px;
+ 	/*border: 1px solid #e6e6e6;*/
+ 	margin: 14px 0 0 0px;
+ 	color: #9b745c;
+ 	font-size: 13px;
+ 	text-align: center;
+ 	position: absolute;
+ 	bottom: 170px;
+ }
+ 
+ .signin-i a {
+ 	margin: 0 11px;
+ 	color: #9b745c;
+ 	text-decoration: none;
+ }
+ 
+ .signin-l {
+ 	width: 163px;
+ 	height: 26px;
+ 	/*border: 1px solid #e6e6e6;*/
+ 	/*margin: 5px 0 0 75px;*/
+ 	position: absolute;
+ 	right: 175px;
+ 	bottom: 138px;
+ }
+ 
+ .signin-l li {
+ 	float: left;
+ }
+ 
+ .signin-l .li-qq {
+ 	width: 30px;
+ 	height: 26px;
+ 	/*border: 1px solid red;*/
+ 	background: url(../img/QQ.png)no-repeat 5px 4px;
+ 	margin: 0px 5px;
+ 	cursor: pointer;
+ }
+ 
+ .signin-l .li-qq:hover {
+ 	background: url(../img/QQ.png)no-repeat 5px -23px;
+ }
+ 
+ .signin-l .li-wx {
+ 	width: 30px;
+ 	height: 26px;
+ 	/*border: 1px solid red;*/
+ 	background: url(../img/QQ.png)no-repeat -38px 4px;
+ 	margin: 0px 5px;
+ 	cursor: pointer;
+ }
+ 
+ .signin-l .li-wx:hover {
+ 	background: url(../img/QQ.png)no-repeat -38px -23px;
+ }
+ 
+ .signin-l .li-wb {
+ 	width: 30px;
+ 	height: 26px;
+ 	/*border: 1px solid red;*/
+ 	background: url(../img/QQ.png)no-repeat -81px 4px;
+ 	margin: 0px 5px;
+ 	cursor: pointer;
+ }
+ 
+ .signin-l .li-wb:hover {
+ 	background: url(../img/QQ.png)no-repeat -81px -23px;
+ }
+ 
+ .signin-l .li-zfb {
+ 	width: 30px;
+ 	height: 26px;
+ 	/*border: 1px solid red;*/
+ 	background: url(../img/QQ.png)no-repeat -125px 4px;
+ 	margin: 0px 5px;
+ 	cursor: pointer;
+ }
+ 
+ .signin-l .li-zfb:hover {
+ 	background: url(../img/QQ.png)no-repeat -125px -23px;
+ }
+ /*跳转后的账号登录*/
+ 
+ .jumen {
+ 	width: 255px;
+ 	height: 233px;
+ 	/*border: 1px solid red;*/
+ 	display: none;
+ 	margin: 6px 0 0 28px;
+ }
+ 
+ .jumen .jumen-a {
+ 	width: 254px;
+ 	height: 41px;
+ 	border: 1px solid #e6e6e6;
+ 	/*margin: 10px 0 0 28px;*/
+ 	background: url(../img/登录图标.PNG)no-repeat 6px 5px;
+ 	border-radius: 4px;
+ 	line-height: 40px;
+ }
+ 
+ .jumen-a .com {
+ 	margin-left: 33px;
+ 	height: 38px;
+ 	width: 216px;
+ 	border: none;
+ 	outline: none;
+ 	text-indent: 5px;
+ }
+ 
+ .jumen .jumen-b {
+ 	width: 254px;
+ 	height: 41px;
+ 	border: 1px solid #e6e6e6;
+ 	border-radius: 4px;
+ 	line-height: 40px;
+ 	margin-top: 12px;
+ 	background: url(../img/密码锁.PNG)no-repeat 5px 8px;
+ }
+ 
+ .jumen-b .mima {
+ 	margin-left: 33px;
+ 	height: 38px;
+ 	width: 216px;
+ 	border: none;
+ 	outline: none;
+ 	text-indent: 5px;
+ }
+ 
+ .jumen-c {
+ 	width: 254px;
+ 	height: 20px;
+ 	/*border: 1px solid #e6e6e6;*/
+ 	border-radius: 4px;
+ 	line-height: 20px;
+ 	margin-top: 4px;
+ 	font-size: 12px;
+ 	color: gray;
+ 	margin-left: 5px;
+ }
+ 
+ .jumen-c a {
+ 	float: right;
+ 	text-decoration: none;
+ 	color: gray;
+ }
+ 
+ .jumen-c a:hover {
+ 	color: #c57d5c;
+ }
+ 
+ .jumen-c .fuxuan {
+ 	position: relative;
+ 	top: 2px;
+ 	right: 3px;
+ }
+ 
+ .jumen-d {
+ 	width: 254px;
+ 	height: 20px;
+ 	/*border: 1px solid #e6e6e6;*/
+ 	margin-top: 4px;
+ 	font-size: 12px;
+ 	text-align: center;
+ 	line-height: 20px;
+ }
+ 
+ .jumen-d a {
+ 	color: #9b745c;
+ 	text-decoration: underline;
+ }
+ 
+ .jumen-e {
+ 	width: 253px;
+ 	height: 40px;
+ 	border: 1px solid #9b745c;
+ 	margin: 25px 0 0 1px;
+ }
+ 
+ .jumen-e .tijiao {
+ 	width: 253px;
+ 	height: 40px;
+ 	border: none;
+ 	outline: none;
+ 	background: white;
+ 	cursor: pointer;
+ 	color: #8b766c;
+ }
+ 
+ .jumen-e .tijiao:hover {
+ 	background: #9b745c;
+ 	color: white;
+ }
+ 
+ input::-webkit-input-placeholder {
+ 	color: gainsboro;
+ }

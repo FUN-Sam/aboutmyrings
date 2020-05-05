@@ -1,0 +1,748 @@
+           * {
+           	padding: 0;
+           	margin: 0;
+           	list-style: none;
+           }
+           
+           .background-z {
+           	width: 1920px;
+           	height: 763px;
+           	/*border: 1px solid red;*/
+           	margin: 0 auto;
+           	position: relative;
+           }
+           
+           .background-z .nvhai {
+           	position: absolute;
+           	left: 37%;
+           	top: 48%;
+           }
+           
+           .background-z .nanhai {
+           	position: absolute;
+           	left: 61%;
+           	top: 46%;
+           	display: none;
+           	/*隐藏*/
+           }
+           
+           .background-z .hand {
+           	position: absolute;
+           	left: 51%;
+           	top: 57%;
+           	animation: flash 2s ease infinite;
+           	cursor: pointer;
+           }
+           /*小手关键帧*/
+           
+           @keyframes flash {
+           	0% {
+           		opacity: 1;
+           	}
+           	50% {
+           		opacity: 0;
+           	}
+           	100 {
+           		opacity: 1;
+           	}
+           }
+           /*小手关键帧*/
+           
+           .background-z .love {
+           	position: absolute;
+           	left: 41%;
+           	top: 13%;
+           	width: 382px;
+           	height: 319px;
+           	/*border: 2px solid white;*/
+           	color: white;
+           	text-align: center;
+           	font-size: 18px;
+           	line-height: 35px;
+           	display: none;
+           	/*隐藏*/
+           }
+           /*这就是(我的爱情主张隐藏)*/
+           
+           .background-z .myimg {
+           	position: absolute;
+           	left: 42%;
+           	top: 20%;
+           	width: 407px;
+           	height: 78px;
+           	/*border: 1px solid red;*/
+           	color: white;
+           	line-height: 78px;
+           	text-align: center;
+           	font-size: 30px;
+           	display: none;
+           	/*隐藏*/
+           }
+           /*这就是(我的爱情主张隐藏)*/
+           
+           .scroll {
+           	width: 0px;
+           	height: 800px;
+           	/*border: 1px solid black;*/
+           	margin: 0 auto;
+           	text-align: center;
+           	position: relative;
+           }
+           
+           .scroll .left {
+           	position: absolute;
+           	transform: scale(1, 0.9)
+           }
+           
+           .scroll .right {
+           	position: absolute;
+           	transform: scale(1, 0.9)
+           }
+           
+           .scroll img.left {
+           	left: 7%;
+           	z-index: 9999;
+           }
+           
+           .scroll img.right {
+           	right: 7%;
+           	/*z-index: 9999;*/
+           }
+           
+           .scroll .bg {
+           	position: absolute;
+           	left: 10%;
+           	top: 8%;
+           	width: 0;
+           	height: 686px;
+           	background: #f2edeb;
+           	overflow: hidden;
+           	z-index: -1;
+           }
+           
+           .scroll .happiness {
+           	display: none;
+           	position: absolute;
+           	left: 10%;
+           	top: 8%;
+           	width: 1567px;
+           	height: 686px;
+           	/*border: 1px solid green;*/
+           	background: #f2edeb;
+           	overflow: hidden;
+           }
+           
+           .happiness .img-a {
+           	height: 686px;
+           	top: 0;
+           	left: 0;
+           	position: absolute;
+           }
+           
+           .happiness .img-a img {
+           	width: 1478px;
+           	height: 726px;
+           	float: left;
+           }
+           
+           .scroll .navigation {
+           	width: 40px;
+           	height: 280px;
+           	/*border: 1px solid black;*/
+           	position: absolute;
+           	left: 40px;
+           	top: 41%;
+           }
+           
+           .navigation li {
+           	margin: 16px auto;
+           	width: 15px;
+           	height: 15px;
+           	border-radius: 50%;
+           	background: #f2edeb;
+           	color: white;
+           	text-align: center;
+           	line-height: 25px;
+           	cursor: pointer;
+           }
+           
+           .navigation .e {
+           	background: #1c3044;
+           }
+           
+           .open {
+           	width: 1920px;
+           	height: 312px;
+           	/*border: 1px solid red;*/
+           	margin: 0 auto;
+           }
+           
+           .open h3 {
+           	text-align: center;
+           	font-size: 36px;
+           	margin-top: 75px;
+           	color: #000;
+           	font-weight: 400;
+           }
+           
+           .open p {
+           	text-align: center;
+           	font-size: 16px;
+           	color: black;
+           	margin-top: 25px;
+           }
+           
+           .open .activity {
+           	text-align: center;
+           	font-weight: bold;
+           	color: #1c3044;
+           	margin-top: 14px;
+           }
+           
+           .open .rules {
+           	width: 212px;
+           	height: 40px;
+           	/*border: 1px solid black;*/
+           	margin: 23px auto;
+           	background: #1c3044;
+           	color: white;
+           	line-height: 40px;
+           	cursor: pointer;
+           }
+           
+           .gift {
+           	width: 1920px;
+           	height: 645px;
+           	/*border: 1px solid black;*/
+           	margin: 0 auto;
+           }
+           
+           .gift .gift-Z {
+           	width: 1420px;
+           	height: 645px;
+           	/*border: 1px solid red;*/
+           	margin: 0 auto;
+           }
+           
+           .gift-Z .gift-a {
+           	width: 417.99px;
+           	height: 475px;
+           	/*border: 1px solid black;*/
+           	float: left;
+           	margin-right: 80px;
+           	background: url(../img/gift赠品1.jpg)no-repeat;
+           }
+           
+           .gift-a .muppet {
+           	width: 210px;
+           	height: 70px;
+           	/*border: 1px solid black;*/
+           	margin: 369px auto;
+           	color: white;
+           	text-align: center;
+           	font-size: 22px;
+           	line-height: 33px;
+           }
+           
+           .muppet span {
+           	font-size: 13px;
+           }
+           
+           .gift-Z .gift-b {
+           	width: 417.99px;
+           	height: 475px;
+           	/*border: 1px solid black;*/
+           	float: left;
+           	margin-top: 166px;
+           	background: url(../img/gift赠品2.jpg)no-repeat;
+           }
+           
+           .gift-b .muppet {
+           	width: 210px;
+           	height: 70px;
+           	/*border: 1px solid black;*/
+           	margin: 369px auto;
+           	color: white;
+           	text-align: center;
+           	font-size: 22px;
+           	line-height: 33px;
+           }
+           
+           .muppet span {
+           	font-size: 13px;
+           }
+           
+           .gift-Z .gift-c {
+           	width: 417.99px;
+           	height: 475px;
+           	/*border: 1px solid black;*/
+           	float: left;
+           	margin-left: 80px;
+           	background: url(../img/gift赠品3.jpg)no-repeat;
+           }
+           
+           .gift-c .muppet {
+           	width: 210px;
+           	height: 70px;
+           	/*border: 1px solid black;*/
+           	margin: 369px auto;
+           	color: white;
+           	text-align: center;
+           	font-size: 22px;
+           	line-height: 33px;
+           }
+           
+           .muppet span {
+           	font-size: 13px;
+           }
+           
+           .statusquo {
+           	width: 1920px;
+           	height: 61px;
+           	/*border: 1px solid red;*/
+           	margin: 170px auto;
+           	text-align: center;
+           	font-size: 43px;
+           	font-weight: 400;
+           }
+           
+           .single {
+           	width: 1410px;
+           	height: 550px;
+           	/*border: 1px solid red;*/
+           	margin: -127px auto 0;
+           	position: relative;
+           	background: url(../img/background.jpg)no-repeat center top;
+           	background-size: 100%;
+           }
+           
+           .s-wrap {
+           	width: 1920px;
+           	margin: 0 auto;
+           }
+           
+           .single .gray {
+           	position: absolute;
+           	top: 120px;
+           	left: 100px;
+           	cursor: pointer;
+           }
+           
+           .single .lovers {
+           	position: absolute;
+           	top: 120px;
+           	left: 1100px;
+           	cursor: pointer;
+           }
+           
+           .single .laft {
+           	position: absolute;
+           	top: 50%;
+           	left: 20%;
+           	width: 49px;
+           	height: 45px;
+           	animation: aaa 1s infinite;
+           	cursor: pointer;
+           }
+           
+           @keyframes aaa {
+           	from {
+           		left: 20%;
+           		/*从左边的百分之20开始*/
+           	}
+           	to {
+           		left: 40%;
+           		/*去到左边的百分之40*/
+           	}
+           }
+           /*左边小手*/
+           
+           .single .right {
+           	position: absolute;
+           	width: 49px;
+           	height: 45px;
+           	top: 50%;
+           	left: 70%;
+           	animation: you 1s infinite;
+           	cursor: pointer;
+           }
+           
+           @keyframes you {
+           	from {
+           		left: 70%;
+           		/*从左边的百分之70开始*/
+           	}
+           	to {
+           		left: 56%;
+           		/*去到左边的百分之56*/
+           	}
+           }
+           
+           .single .boy {
+           	position: absolute;
+           	top: 11%;
+           	left: 45%;
+           	width: 140px;
+           	height: 323px;
+           	display: none;
+           	/*隐藏*/
+           }
+           
+           .single .girl {
+           	position: absolute;
+           	top: 10%;
+           	left: 44%;
+           	display: none;
+           	/*隐藏*/
+           }
+           
+           .opinion {
+           	width: 1920px;
+           	height: 410px;
+           	/*border: 1px solid red;*/
+           	margin: 0 auto;
+           	/*background: #f2edeb;*/
+           	position: relative;
+           }
+           
+           .opinion textarea {
+           	display: block;
+           	margin: 0 auto;
+           	padding: 100px 347px;
+           	width: 716px;
+           	height: 210px;
+           	font: 18px/40px "microsoft yahei";
+           	color: #889198;
+           	background-color: #f2edeb;
+           	border: 0 none;
+           	outline: 0;
+           	resize: none;
+           }
+           
+           .text {
+           	width: 1390px;
+           	height: 400px;
+           	/*border: 1px solid red;*/
+           	background: transparent;
+           	position: absolute;
+           	left: 50%;
+           	top: 50%;
+           	transform: translate(-50%, -50%);
+           	/*display: none;       	/*隐藏*/
+           	text-align: center;
+           	line-height: 400px;
+           	color: #889198;
+           	font-size: 18px;
+           	font-family: "微软雅黑";
+           }
+           
+           .opinion .zero {
+           	position: absolute;
+           	top: 93%;
+           	left: 48%;
+           	color: #889198;
+           }
+           
+           .release {
+           	width: 1410px;
+           	height: 40px;
+           	/*border: 1px solid red;*/
+           	margin: 36px auto 0;
+           }
+           
+           .release div {
+           	width: 212px;
+           	height: 40px;
+           	/*border: 1px solid black;*/
+           	margin: 0 auto;
+           	text-align: center;
+           	line-height: 40px;
+           	background: #1c3044;
+           	color: white;
+           	cursor: pointer;
+           }
+           
+           .class {
+           	width: 1410px;
+           	height: 23px;
+           	/*border: 1px solid black;*/
+           	margin: 0 auto;
+           	text-align: center;
+           	font-size: 14px;
+           	margin-top: 14px;
+           }
+           
+           .class a {
+           	text-decoration: none;
+           }
+           /*第一条评论样式*/
+           
+           .comment {
+           	width: 1420px;
+           	height: 881px;
+           	/*border: 1px solid black;*/
+           	margin: 32px auto 0;
+           	position: relative;
+           }
+           
+           .comment .comment-a {
+           	width: 1308px;
+           	height: 62px;
+           	/*border: 1px solid black;*/
+           	margin-left: 100px;
+           }
+           
+           .comment-a span {
+           	float: right;
+           	line-height: 62px;
+           	color: #6b5d51;
+           }
+           
+           .comment .comment-b {
+           	width: 1075px;
+           	height: 104px;
+           	/*border: 1px solid red;*/
+           	margin: 0 auto;
+           }
+           
+           .comment-b img {
+           	float: left;
+           }
+           
+           .comment-b p {
+           	margin: 5px 0 0 0px;
+           	line-height: 28px;
+           	float: left;
+           }
+           
+           .comment-b p .xiao {
+           	font-size: 12px;
+           }
+           
+           .comment-b .dark {
+           	float: right;
+           	margin: 63px 225px 0 0;
+           }
+           
+           .dark .span1 {
+           	position: absolute;
+           	bottom: 82%;
+           }
+           /*第一条评论样式*/
+           /*第二条评论样式*/
+           
+           .comment .comment-c {
+           	width: 1308px;
+           	height: 74px;
+           	/*border: 1px solid black;*/
+           	margin-left: 100px;
+           }
+           
+           .comment .comment-d {
+           	width: 1075px;
+           	height: 104px;
+           	/*border: 1px solid red;*/
+           	margin: 0 auto;
+           }
+           
+           .comment-d img {
+           	float: left;
+           }
+           
+           .comment-d p {
+           	margin: 5px 0 0 0px;
+           	line-height: 28px;
+           	float: left;
+           }
+           
+           .comment-d p .xiao-ao {
+           	font-size: 12px;
+           }
+           
+           .comment-d .darkk {
+           	float: right;
+           	margin: 63px 225px 0 0;
+           }
+           
+           .darkk .span2 {
+           	position: absolute;
+           	bottom: 62%;
+           }
+           /*第二条评论样式*/
+           /*第三条评论样式*/
+           
+           .comment-e {
+           	width: 1308px;
+           	height: 74px;
+           	/*border: 1px solid black;*/
+           	margin-left: 100px;
+           }
+           
+           .comment .comment-f {
+           	width: 1075px;
+           	height: 119px;
+           	/*border: 1px solid red;*/
+           	margin: 0 auto;
+           }
+           
+           .comment-f img {
+           	float: left;
+           }
+           
+           .comment-f p {
+           	margin: 5px 0 0 0px;
+           	line-height: 28px;
+           	float: left;
+           }
+           
+           .comment-f p .xiao-en {
+           	font-size: 12px;
+           }
+           
+           .comment-f .darkao {
+           	float: right;
+           	margin: 84px 225px 0 0;
+           }
+           
+           .darkao .span3 {
+           	position: absolute;
+           	bottom: 39%;
+           }
+           /*第三条评论样式*/
+           /*第四条评论样式*/
+           
+           .comment-g {
+           	width: 1308px;
+           	height: 74px;
+           	/*border: 1px solid black;*/
+           	margin-left: 100px;
+           }
+           
+           .comment .comment-h {
+           	width: 1075px;
+           	height: 104px;
+           	/*border: 1px solid red;*/
+           	margin: 0 auto;
+           }
+           
+           .comment-h img {
+           	float: left;
+           }
+           
+           .comment-h p {
+           	margin: 5px 0 0 0px;
+           	line-height: 28px;
+           	float: left;
+           }
+           
+           .comment-h p .xiao-ou {
+           	font-size: 12px;
+           }
+           
+           .comment-h .darkin {
+           	float: right;
+           	margin: 63px 225px 0 0;
+           }
+           
+           .darkin .span4 {
+           	position: absolute;
+           	bottom: 172px;
+           }
+           /*第四条评论样式*/
+           /*第五条评论样式*/
+           
+           .comment-i {
+           	width: 1308px;
+           	height: 63px;
+           	/*border: 1px solid black;*/
+           	margin-left: 100px;
+           }
+           
+           .comment .comment-j {
+           	width: 1075px;
+           	height: 104px;
+           	/*border: 1px solid red;*/
+           	margin: 0 auto;
+           }
+           
+           .comment-j img {
+           	float: left;
+           }
+           
+           .comment-j p {
+           	margin: 5px 0 0 0px;
+           	line-height: 28px;
+           	float: left;
+           }
+           
+           .comment-j p .xiao-dn {
+           	font-size: 12px;
+           }
+           
+           .comment-j .darkti {
+           	float: right;
+           	margin: 58px 225px 0 0;
+           }
+           
+           .darkti .span5 {
+           	position: absolute;
+           	bottom: 10px;
+           }
+           /*第五条评论样式*/
+           
+           .nextpage {
+           	width: 1420px;
+           	height: 104px;
+           	/*border: 1px solid red;*/
+           	margin: 0 auto;
+           	margin-top: 132px;
+           }
+           
+           .nextpage .nextpage-s {
+           	width: 500px;
+           	height: 33px;
+           	/*border: 1px solid red;*/
+           	margin: 39px auto 0;
+           	/*text-indent: 15px;*/
+           }
+           
+           .nextpage-s li {
+           	float: left;
+           	/*line-height: 100px;*/
+           	cursor: pointer;
+           }
+           
+           .nextpage-s .home {
+           	width: 28px;
+           	height: 30px;
+           	border: 1px solid #8b766c;
+           	text-align: center;
+           	line-height: 30px;
+           	background: #8b766c;
+           	color: white;
+           	font-size: 12px;
+           }
+           
+           .nextpage-s .home-s {
+           	width: 28px;
+           	height: 30px;
+           	border: 1px solid #e6e9ed;
+           	text-align: center;
+           	line-height: 30px;
+           	color: #8b766c;
+           	font-size: 12px;
+           }
+           
+           .nextpage-s .mo {
+           	width: 62px;
+           	height: 30px;
+           	border: 1px solid #e6e9ed;
+           	text-align: center;
+           	line-height: 30px;
+           	font-size: 12px;
+           }
+           
+           .nextpage-s .gong {
+           	font-size: 12px;
+           	margin: 8px 0 0 5px;
+           }

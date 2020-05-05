@@ -1,0 +1,481 @@
+*{
+	margin: 0;
+	padding:0;
+}
+body{
+	position: relative;
+}
+.box-12xz1{
+	min-width: 1350px;
+	height: 620px;
+	margin: 0 auto;
+}
+.box-12xz1 img{
+	width: 100%;
+	height: 100%;
+}
+.box-12xz2{
+	min-width: 1350px;
+	height: 850px;
+	margin: 5px auto;
+	position: relative;
+	overflow: hidden;	
+}
+.box-12xz2 .box-12xz2Content{
+	/*width: 1350px;*/
+	height: 850px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.box-12xz2 .box-12xz2Content .box-12xz2ContentChild{
+	height: 850px;
+	position: relative;
+}
+/*动画部分*/
+/*摩羯座*/
+/*@keyframes xianshiqi{
+	0%{
+		transform: translateY(-80px);
+		opacity: 0;
+	}
+	100%{
+		transform: translateY(80px);
+		opacity: 1;
+	}
+}*/
+/*默认让每个p隐藏，往上移动80px   js用动画改变其opacity和translateY的值*/
+.box-12xz2ContentChild p{
+   	transform: translateY(-80px);
+	opacity: 0;
+}
+
+.box-12xz2ContentChild .p1{
+	position: absolute;
+	top: 0;
+	left: 300px;
+
+}
+
+.box-12xz2ContentChild .p2{
+	position: absolute;
+	top: 630px;
+    left: 579px;
+}
+.box-12xz2ContentChild .p3{
+	width: 485px;
+	height: 321px;
+	position: absolute;
+	top: 325px;
+    left: 168px;
+}
+/*水瓶座*/
+.box-12xz2ContentChild .p4{
+	position: absolute;
+	top:55px;
+	left: 600px;
+}
+.box-12xz2ContentChild .p5{
+	position: absolute;
+	top: 420px;
+    left: 550px;
+}
+.box-12xz2ContentChild .p6{
+	width: 294px;
+	height: 471px;
+	position: absolute;
+	top: 234px;
+    left: 220px;
+}
+/*双鱼座*/
+.box-12xz2ContentChild .p7{
+	position: absolute;
+	top: 10px;
+	left: 360px;
+}
+.box-12xz2ContentChild .p8{
+	position: absolute;
+	top: 441px;
+    left: 579px;
+}
+.box-12xz2ContentChild .p9{
+	width: 486px;
+	height: 384px;
+	position: absolute;
+	top: 383px;
+    left: 850px;
+}
+/*白羊座*/
+.box-12xz2ContentChild .p10{
+	position: absolute;
+	top: 0;
+	left: 487px;
+}
+.box-12xz2ContentChild .p11{
+	position: absolute;
+	top: 506px;
+    left: 579px;
+}
+.box-12xz2ContentChild .p12{
+	width: 340px;
+	height: 453px;
+	position: absolute;
+	top: 286px;
+    left: 225px;
+}
+/*金牛座*/
+.box-12xz2ContentChild .p13{
+	position: absolute;
+	top: 0;
+	left: 300px;
+}
+.box-12xz2ContentChild .p14{
+	position: absolute;
+	top: 650px;
+    left: 527px;
+}
+.box-12xz2ContentChild .p15{
+	width: 333px;
+	height: 456px;
+	position: absolute;
+	top: 252px;
+    left: 349px;
+}
+/*双子座*/
+.box-12xz2ContentChild .p16{
+	position: absolute;
+	top: 0;
+	left: 415px;
+}
+.box-12xz2ContentChild .p17{
+	position: absolute;
+	top: 425px;
+    left: 495px;
+}
+.box-12xz2ContentChild .p18{
+	width: 307px;
+	height: 459px;
+	position: absolute;
+	top: 180px;
+    left: 763px;
+}
+/*巨蟹座*/
+.box-12xz2ContentChild .p19{
+	position: absolute;
+	top: 60px;
+	left: 356px;
+}
+.box-12xz2ContentChild .p20{
+	position: absolute;
+	top: 483px;
+    left: 486px;
+}
+.box-12xz2ContentChild .p21{
+	width: 291px;
+	height: 435px;
+	position: absolute;
+	top: 235px;
+    left: 734px;
+}
+/*狮子座*/
+.box-12xz2ContentChild .p22{
+	position: absolute;
+	top: 42px;
+	left: 565px;
+}
+.box-12xz2ContentChild .p23{
+	position: absolute;
+	top: 620px;
+    left: 370px;
+}
+.box-12xz2ContentChild .p24{
+	width: 552px;
+	height: 284px;
+	position: absolute;
+	top: 325px;
+    left: 168px;
+}
+/*处女座*/
+.box-12xz2ContentChild .p25{
+	position: absolute;
+	top: 69px;
+	left: 380px;
+}
+.box-12xz2ContentChild .p26{
+	position: absolute;
+	top: 506px;
+    left: 180px;
+}
+.box-12xz2ContentChild .p27{
+	width: 325px;
+	height: 421px;
+	position: absolute;
+	top: 325px;
+    left: 487px;
+}
+/*天平座*/
+.box-12xz2ContentChild .p28{
+	position: absolute;
+	top: 108px;
+	left: 260px;
+}
+.box-12xz2ContentChild .p29{
+	position: absolute;
+	top: 411px;
+    left: 200px;
+}
+.box-12xz2ContentChild .p30{
+	width: 464px;
+	height: 441px;
+	position: absolute;
+	top: 325px;
+    left: 479px;
+}
+/*天蝎座*/
+.box-12xz2ContentChild .p31{
+	position: absolute;
+	top: 80px;
+	left: 341px;
+}
+.box-12xz2ContentChild .p32{
+	position: absolute;
+	top: 630px;
+    left: 630px;
+}
+.box-12xz2ContentChild .p33{
+	width: 564px;
+	height: 355px;
+	position: absolute;
+	top: 325px;
+    left: 200px;
+}
+/*射手座*/
+.box-12xz2ContentChild .p34{
+	position: absolute;
+	top: 100px;
+	left: 300px;
+}
+.box-12xz2ContentChild .p35{
+	position: absolute;
+	top: 666px;
+    left: 264px;
+}
+.box-12xz2ContentChild .p36{
+	width: 472px;
+	height: 423px;
+	position: absolute;
+	top: 278px;
+    left: 365px;
+}
+
+
+
+
+
+
+
+
+
+.box-12xz2 .box-12xz2Content .box-12xz2ContentChild img{
+	width: 100%;
+	height: 100%;
+}
+.box-12xz2 ul{
+	position: absolute;
+    z-index: 20;
+    top: 50%;
+    left: 72px;
+    margin-top: -252px;
+    width: 110px;
+    height: 504px;
+}
+.box-12xz2 ul li{
+	position: relative;
+    height: 42px;
+    padding-left: 44px 
+}
+.box-12xz2 ul li i{
+	display: inline-block;
+	position: absolute;
+    z-index: 6;
+    top: 25%;
+    left: 12px;
+    margin-top: -4px;
+    width: 8px;
+    height: 8px;
+    background: #7e7e7e;
+    border-radius: 50%;
+}
+.box-12xz2 ul li .span1{
+	display: inline-block;
+    position: absolute;
+    border-left: 1px dashed #7e7e7e;
+    height: 20px;
+    top: 20px;
+    left: 16px;
+}
+.box-12xz2 ul li:last-child .span1{
+	border-left:none
+}
+.box-12xz2 ul li .span2{
+	display: inline-block;
+    position: absolute;
+    top: -5px;
+    left: 0px;
+    height: 32px;
+    width: 32px;
+    background: url(../img/透明圆.png) no-repeat 0px 0px;
+}
+.box-12xz3{
+	background-color: #e6ecf4;
+	height: 680px;
+	min-width: 1350px;
+	margin: 5px auto;
+}
+.box-12xz3 input{
+	outline: none;
+}
+.box-12xz3-top{
+	width: 1000px;
+	height: 170px;
+	margin: 0 auto;
+}
+.box-12xz3-bottom{
+	margin: 0 auto;
+	width: 1000px;
+	height: 450px;
+}
+.box-12xz3-bottom1{
+	width: 575px;
+	height: 450px;
+	float: left;
+}
+.box-12xz3-bottom2{
+	/*border: 1px solid red;*/
+	width: 425px;
+	height: 450px;
+	float: left;
+	background-color: #f1f5f8;
+}
+.box-12xz3-bottom2-a,.box-12xz3-bottom2-c{
+	font-size: 13px;
+    color: #444;
+    width:320px;
+    margin: 55px 20px 0px 50px;
+}
+.box-12xz3-bottom2-a select{
+	width: 150px;
+	height: 25px;
+	margin-top: 12px;
+}
+.box-12xz3-bottom2-b,.box-12xz3-bottom2-c{
+   position: relative;	
+    margin: 20px 20px 0px 50px;
+}
+.box-12xz3-bottom2-b>input,.box-12xz3-bottom2-c>input{
+	width: 310px;
+	height: 32px;
+	text-indent: 10px;
+}
+.box-12xz3-bottom2-b>span{
+	position: absolute;
+	right: 55px;
+    top: 8px;
+    color: #bf967c;
+    font-size: 12px;
+}
+.box-12xz3-bottom2-c>span{
+	position: absolute;
+	right: 24px;
+    top: 8px;
+    color: #bf967c;
+    font-size: 12px;
+}
+.box-12xz3-bottom2-d{
+	position: relative;	
+    margin: 10px 20px 0px 50px;
+}
+.box-12xz3-bottom2-d input{
+	background: url(../img/date.png) no-repeat 124px 5px;
+	border: 1px solid #aaaaaa;
+	text-indent: 10px;
+}
+.box-12xz3-bottom2-d input,.box-12xz3-bottom2-d select{
+	width: 150px;
+	height: 30px;
+	margin-top: 12px;
+}
+.box-12xz3-bottom2-e{
+    margin-top: 18px;	
+}
+.box-12xz3-bottom2-e>a{
+	display: block;
+    margin: 10px auto 0;
+    background: #a98f83;
+    color: #fff;
+    font-size: 14px;
+    height: 38px;
+    line-height: 38px;
+    width: 200px;
+    text-align: center;
+    border: none;
+}
+.box-12xz3-bottom2-e>a:hover{
+    background: #8b766c;
+    cursor: pointer;
+}
+.box-12xz3-bottom2-f{
+	text-align: center;
+    margin-top: 10px; 
+    color: #999;
+    font: 12px/20px "microsoft yahei";
+}
+.box-12xz4{
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	position: absolute;
+	background: rgba(0,0,0,0.8);
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+}
+.box-12xz4-box{
+	background: #fff;
+	width: 540px;
+    height: 390px;
+    left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: #fff;
+	position: fixed;
+	margin: auto;
+}
+.box-12xz4-box1{
+	width: 490px;
+    height: 340px;
+    border: 2px solid #5e5d62;;
+    margin: 25px;
+}
+.box-12xz4-box1 p:first-child{
+	margin-top: 55px;
+}
+.box-12xz4-box1 p,h6{
+	text-align: center;
+	margin-top: 18px;
+}  
+.box-12xz4-box1 h6{
+    background: url(../img/gougou.png) no-repeat 115px 0px;
+    height: 50px;
+    line-height: 29px;
+    font-size: 24px;
+    color: #9b745c;
+    font-family: 宋体;
+    font-weight: 700;
+}
+.box-12xz4-box1 p span{
+	color:#666;
+	font-size: 14px;
+}

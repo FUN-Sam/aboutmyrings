@@ -1,0 +1,298 @@
+	* {
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		text-decoration: none;
+	}
+	
+	.fl {
+		float: left;
+	}
+	
+	.fr {
+		float: right;
+	}
+	
+	.wrap {
+		width: 1360px;
+		margin: 0 auto;
+	}
+	/*导航区域*/
+	
+	/*.show{
+		display: block;
+	}
+	.hide{
+		display: none;
+	}*/
+	.ring-all {
+		overflow: hidden;
+		margin-top: 50px;
+		margin-bottom: 10px;
+	}
+	
+	.ring-all-left a {
+		color: #333;
+		font-size: 13px;
+		padding-left: 7px;
+	}
+	
+	.ring-all-left a:hover {
+		color: #9b745c;
+	}
+	
+	.searchborder {
+		display: inline-block;
+		position: relative;
+		border: 1px solid #d7d7d7;
+		width: 235px;
+		height: 30px;
+		line-height: 30px;
+		margin-right: 19px;
+	}
+	
+	.searchborder input {
+		border: 0 none;
+		font-size: 14px;
+		padding-left: 15px;
+		outline: 0 none;
+	}
+	
+	.searchR {
+		background: url(../img/search.png) no-repeat;
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+		position: absolute;
+		top: 9px;
+		right: 8px;
+	}
+	
+	.ring-all-right>a {
+		font-size: 14px;
+		color: #666;
+		margin-right: 46px;
+	}
+	
+	.ring-all-right>a:hover {
+		color: #dbc7ba;
+	}
+	/*高级搜索栏*/
+	
+	.clearfix:after {
+		display: block;
+		content: "";
+		clear: both;
+	}
+	
+	.ring-highsearch>ul {
+		position: relative;
+	}
+	
+	.ring-highsearch>div>a {
+		color: #666;
+		font-size: 14px;
+		margin-right: 44px;
+	}
+	
+	.ring-highsearch>ul>li {
+		float: left;
+	}
+	
+	.ring-highsearch>ul>li>span:hover {
+		color: #9b745c;
+	}
+	
+	.ring-highsearch>ul>li>span {
+		display: inline-block;
+		height: 33px;
+		line-height: 33px;
+		color: #666;
+		font-size: 14px;
+		padding-right: 16px;
+		margin-left: 15px;
+		margin-right: 3px;
+		cursor: pointer;
+		background: url(../img/bottom.png) center right no-repeat;
+	}
+	
+	.ring-highsearch>ul>li>a:hover {
+		color: #9b745c;
+	}
+	
+	.drring_highsearch-same {
+		border-top: 1px solid #666;
+		border-bottom: 1px solid #666;
+		display: none;
+		width: 1360px;
+		position: absolute;
+		top: 34px;
+		left: 0px;
+		min-height: 215px;
+		background: #fff;
+		z-index: 5;
+	}
+	
+	.drring_highsearch-same>a {
+		color: #666;
+		padding-left: 12px;
+		width: 208px;
+		height: 40px;
+		line-height: 40px;
+		display: inline-block;
+	}
+	
+	.drring_highsearch-same>a:hover {
+		color: #9b745c;
+	}
+	
+	.pricesearch em {
+		display: inline-block;
+		background: #a98f83;
+		font-size: 14px;
+		color: #fff;
+		width: 90px;
+		height: 31px;
+		line-height: 31px;
+		text-align: center;
+		margin-left: 10px;
+		cursor: pointer;
+	}
+	/*产品展示区域*/
+	
+	.display-product {
+		overflow: hidden;
+		margin-top: 40px;
+	}
+	
+	.display-product>ul>li:nth-of-type(3) {
+		margin-right: 0;
+	}
+	
+	.display-product>ul>li img {
+		width: 426px;
+		height: 490px;
+	}
+	
+	.display-product>ul>li {
+		float: left;
+		cursor: pointer;
+		width: 426PX;
+		margin-right: 41px;
+	}
+	
+	.buy-ring {
+		text-align: center;
+		padding: 46px 0 10px 0;
+		color: #8c776d;
+		font-size: 14px;
+	}
+	
+	.buy-ring-button {
+		position: relative;
+		margin-top: 10px;
+	}
+	
+	.buy-ring-button span {
+		background: #a98f83;
+		color: #fff;
+		padding: 7px 12px;
+		display: inline-block;
+		margin-top: 5px;
+		font-family: "microsoft yahei";
+		font-size: 12px;
+		width: 50px;
+		height: 13px;
+		line-height: 13px;
+		cursor: pointer;
+		font-weight: bold;
+		margin-right: 59px;
+	}
+	
+	.buy-ring a {
+		color: #fff;
+		background: #a98f83;
+		width: 69px;
+		height: 27px;
+		line-height: 13px;
+		display: inline-block;
+		line-height: 27px;
+		font-size: 12px;
+		position: absolute;
+		left: 258px;
+		top: 5px;
+		margin-left: -39px;
+	}
+	
+	.imgbox {
+		position: relative;
+	}
+	
+	.imgbox01 {
+		position: relative;
+	}
+	
+	.imgbox02 {
+		position: relative;
+	}
+	
+	.imgbox03 {
+		position: relative;
+	}
+	
+	.imgbox04 {
+		position: relative;
+	}
+	
+	.star {
+		position: absolute;
+		bottom: 19px;
+		right: 20px;
+		display: inline-block;
+		width: 20px;
+		height: 20px;
+		background: url(../img/icon_collect_off.png) no-repeat;
+		cursor: pointer;
+	}
+	.starimg{
+		background: url(../img/icon_collect_on.png);
+	}
+	.imgbox .img-pic2-1 {
+		position: absolute;
+		left: 0%;
+		top: 0;
+	}
+	
+	.imgbox01 .img-pic2-2 {
+		position: absolute;
+		left: 0%;
+		top: 0;
+	}
+	
+	.imgbox02 .img-pic2-3 {
+		position: absolute;
+		left: 0%;
+		top: 0;
+	}
+	
+	.imgbox03 .img-pic2-4 {
+		position: absolute;
+		left: 0%;
+		top: 0;
+	}
+	
+	.imgbox04 .img-pic2-5 {
+		position: absolute;
+		left: 0%;
+		top: 0;
+	}
+	
+	.footerp {
+		margin-top: 100px;
+		text-align: center;
+		font-size: 14px;
+		color: #999;
+		height: 18px;
+		line-height: 18px;
+		margin-bottom: 140px;
+	}
